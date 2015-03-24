@@ -44,4 +44,8 @@ ifeq ($(TARGET_PRODUCT), full_wingray)
     include $(LOCAL_PATH)/conf/moto/wingray/Android.mk
 endif
 
+ifeq ($(TARGET_PRODUCT), full_loftq)
+    include $(LOCAL_PATH)/conf/mixtile/loftq/Android.mk
+endif
+
 endif # BOARD_HAVE_BLUETOOTH_BCM
